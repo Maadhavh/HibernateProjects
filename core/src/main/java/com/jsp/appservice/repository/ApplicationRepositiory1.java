@@ -51,7 +51,7 @@ public class ApplicationRepositiory1 {
 			
 			System.out.println(dto.getAltKey()+" primary key not present. Therefore creating new row and adding values");
 			ApplicationEntity applicationEntity2 = new ApplicationEntity();
-			applicationEntity2.setAltkey(dto.getAltKey());
+			//applicationEntity2.setAltkey(dto.getAltKey());
 			applicationEntity2.setApplicationName("Game App");
 			applicationEntity2.setUserName(dto.getUserName());
 			applicationEntity2.setPassword(dto.getPassword());
